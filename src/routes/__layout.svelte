@@ -8,8 +8,10 @@
         {name: "About", value: "about", active: false},
         {name: "Jobs", value: "jobs", active: false},
         {name: "Store", value: "store", active: false},
+        {name: "Donate", value: "donate", active: false},
     ]
     let current = true;
+
 </script>
 
 <nav>
@@ -23,7 +25,6 @@
                 href="/{page.value}">{page.name}</a>
         {/each}
     </div>
-
 </nav>
 
 <style>
@@ -32,12 +33,12 @@
         justify-content: space-around;
         align-items: center;
     }
-    .nav-items{
+   .nav-items{
         display: flex;
-        justify-content: space-between;
+       gap: 1.2rem;
     }
     h1{
-        color: lightcoral;
+        color: #e87d0d;
     }
 </style>
 

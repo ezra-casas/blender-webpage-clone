@@ -1,9 +1,9 @@
-<div class="container">
+<div class="hero">
 
 </div>
 
 <style>
-    .container {
+    .hero {
         display: flex;
         justify-content: space-between;
     }
